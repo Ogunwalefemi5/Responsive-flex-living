@@ -49,13 +49,22 @@ body {
 /* header and nav section */
 /* //////////////////////////////////////// */
 .header {
+  width: 1440rem;
+  height: 83rem;
+  /* padding: 0 60rem 0 60rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
   width: 1300rem;
   display: flex;
   gap: 10rem;
   align-items: center;
   /* align-items: space-between; */
   justify-content: space-between;
-  margin-bottom: 12.5rem;
+  /* margin-bottom: 12.5rem; */
 }
 
 .nav {
@@ -64,7 +73,7 @@ body {
   gap: 10rem;
 }
 
-.menu {
+.menu-icon {
   font-size: 24rem;
   display: none;
 }
